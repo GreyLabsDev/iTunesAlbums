@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">iTunesAlbums</string>
+
+    <string name="navigation_search">Search</string>
+    <string name="navigation_last_album">Album</string>
+    <string name="navigation_about">About</string>
+
+    <string name="search_text">Find your favorite musician!</string>
+    <string name="hint_text">Search</string>
+    <string name="empty_text">Search field is empty</string>
+    <string name="empty_album">Nothing to show :(\n\nGo to search page to find and choose some album!</string>
+    <string name="share_text">Just look at this great album!</string>
+
+    <string name="network_error">Network error. Please, check connection</string>
+    <string name="query_error">Results for your search is not found</string>
+
+    <string name="about_title">Sergey Sh. (GreyLabsDev)</string>
+    <string name="about_text"><![CDATA[One of my test tasks realization\nSpent time ~ 9-11h\nSingle Activity Application\n\nTechnologies:\n\Java\nRxJava 2\nOkHttp\nPicasso\nBlurry\n\nMe on GitHub:]]></string>
+    <string name="about_link">https://github.com/GreyLabsDev</string>
+</resources>
