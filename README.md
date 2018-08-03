@@ -5,7 +5,7 @@
 - Spent time ~ 9-11h
 - Single Activity Application
 
-iTunesAlbums - simple and small example application, that shows my current progress in RxJava 2 and vusial design in Android applications.
+iTunesAlbums - simple and small example application, that shows my current progress in RxJava 2 and visual design in Android applications.
 
 ![screenshoot](https://github.com/GreyLabsDev/iTunesAlbums/blob/master/scr1.jpg)
 ![screenshoot](https://github.com/GreyLabsDev/iTunesAlbums/blob/master/scr2.jpg)
