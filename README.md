@@ -17,9 +17,9 @@ iTunesAlbums - simple and small example application, that shows my current progr
 
 ### Used technologies
 * [OkHttp3](https://square.github.io/okhttp/) - for network use
-* [RxJava 2](https://github.com/ReactiveX/RxJava) - for making async actions more easy =)
+* [RxJava 2](https://github.com/ReactiveX/RxJava) - for making async actions more easy 
 * [Picasso](http://square.github.io/picasso/) - for downloading images and using placeholders
-* [Blurry](https://github.com/wasabeef/Blurry) - for reactive UI (updating RecyclerView items after geting full response)
+* [Blurry](https://github.com/wasabeef/Blurry) - for blurring some images to make more stylish UI =)
 * [Data Binding](https://developer.android.com/topic/libraries/data-binding/) - to simplify work with views without "findViewById"
 
 ### Useful links
