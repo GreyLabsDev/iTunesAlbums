@@ -64,7 +64,9 @@ public class AlbumCardFragment extends Fragment {
                 Intent shareIntent = new Intent(Intent.ACTION_SEND);
                 shareIntent.setType("text/plain");
                 shareIntent.putExtra(Intent.EXTRA_TEXT, getContext().getResources().getString(R.string.share_text) + "\n" + currentAlbum.getCollectionViewUrl());
-                getActivity().startActivity(Intent.createChooser(shareIntent, "Share using"));
+                if (shareIntent.resolveActivity(getActivity().getPackageManager()) != null) {
+                    getActivity().startActivity(Intent.createChooser(shareIntent, "Share using"));
+                }
             });
 
             String dateArray[] = currentAlbum.getReleaseDate().split("-");

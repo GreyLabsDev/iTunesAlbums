@@ -31,7 +31,9 @@ public class AboutFragment extends Fragment {
         binding.ivGithubBtn.setOnClickListener(view1 -> {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW);
             browserIntent.setData(Uri.parse(getString(R.string.about_link)));
-            getContext().startActivity(browserIntent);
+            if (browserIntent.resolveActivity(getActivity().getPackageManager()) != null) {
+                getContext().startActivity(browserIntent);
+            }
         });
 
         FunAnimator gitBtnAnimator = new FunAnimator(binding.ivGithubBtn);

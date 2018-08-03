@@ -17,30 +17,33 @@
             android:layout_height="wrap_content"
             android:background="@color/designBgCardColor">
 
-            <ImageView
-              android:id="@+id/ivArtwork"
-              android:layout_width="120dp"
-              android:layout_height="120dp"
-              android:scaleType="fitCenter"
-              app:layout_constraintEnd_toEndOf="parent"
-              app:layout_constraintStart_toStartOf="parent"
-              app:layout_constraintTop_toTopOf="parent"
-              app:srcCompat="@color/colorWhite"/>
+	        <ImageView
+		        android:id="@+id/ivArtwork"
+		        android:layout_width="120dp"
+		        android:layout_height="120dp"
+		        app:layout_constraintEnd_toEndOf="parent"
+		        app:layout_constraintStart_toStartOf="parent"
+		        app:layout_constraintTop_toTopOf="parent"
+		        app:srcCompat="@color/colorWhite"/>
 
-            <TextView
-                android:id="@+id/tvCollectionName"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:text="tst"
-                android:textColor="@color/colorWhite"
-                app:layout_constraintEnd_toEndOf="@+id/ivArtwork"
-                app:layout_constraintStart_toStartOf="@+id/ivArtwork"
-                app:layout_constraintTop_toBottomOf="@+id/ivArtwork" />
+	        <TextView
+		        android:id="@+id/tvCollectionName"
+		        android:layout_width="0dp"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="8dp"
+		        android:layout_marginStart="8dp"
+		        android:layout_marginEnd="8dp"
+		        android:layout_marginLeft="8dp"
+		        android:layout_marginRight="8dp"
+		        android:ellipsize="end"
+		        android:lines="2"
+		        android:maxLines="2"
+		        android:minLines="1"
+		        android:textColor="@color/colorWhite"
+		        app:layout_constraintEnd_toEndOf="@+id/ivArtwork"
+		        app:layout_constraintStart_toStartOf="@+id/ivArtwork"
+		        app:layout_constraintTop_toBottomOf="@+id/ivArtwork"
+		        tools:text="tst"/>
 
             <TextView
                 android:id="@+id/tvYearCountry"
@@ -52,7 +55,7 @@
                 android:layout_marginRight="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="2dp"
-                android:text="tst"
+	              tools:text="tst"
                 android:textColor="@color/designTextAccentColor"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"

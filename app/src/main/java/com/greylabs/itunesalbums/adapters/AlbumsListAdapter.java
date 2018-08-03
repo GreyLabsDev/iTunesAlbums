@@ -34,7 +34,11 @@ public class AlbumsListAdapter extends RecyclerView.Adapter<AlbumsListAdapter.Al
     public void onBindViewHolder(AlbumsViewHolder holder, int position) {
         holder.binding.tvCollectionName.setText(items.get(position).getCollectionName());
         holder.binding.ivArtwork.post(() -> {
-            Picasso.get().load(items.get(position).getArtworkUrl()).placeholder(R.drawable.album_placeholder).into(holder.binding.ivArtwork);
+            Picasso.get()
+                .load(items.get(position).getArtworkUrl())
+                .placeholder(R.drawable.album_placeholder)
+                .fit()
+                .into(holder.binding.ivArtwork);
         });
         holder.binding.tvYearCountry.setText(items.get(position).getReleaseDate().split("-")[0]
                 + " - "
