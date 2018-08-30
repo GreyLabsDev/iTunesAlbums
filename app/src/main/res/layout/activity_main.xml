@@ -28,14 +28,15 @@
 
         <android.support.design.widget.BottomNavigationView
             android:id="@+id/bnvNavigation"
-            app:itemBackground="@color/designTextAccentColor"
-            app:itemIconTint="@color/colorWhite"
-            app:itemTextColor="@color/colorWhite"
+            android:background="@color/designTextAccentColor"
+            app:itemIconTint="@color/navigation_item_color"
+            app:itemTextColor="@color/navigation_item_color"
             app:menu="@menu/bottom_navigation_menu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
+
     </android.support.constraint.ConstraintLayout>
 </layout>

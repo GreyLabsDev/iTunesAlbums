@@ -9,6 +9,8 @@
     <color name="designBgColor">#181C25</color>
     <color name="designBgCardColor">#361C29</color>
     <color name="designTextAccentColor">#CD4A5F</color>
+    <color name="desigNavigationView">#cf7583</color>
+    <color name="designColorPrimaryRipple">#c99199</color>
     <color name="designBgAccentColor">#EE7D51</color>
 
 
